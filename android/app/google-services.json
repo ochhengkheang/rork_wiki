@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585451171615",
+    "project_id": "rork-wiki",
+    "storage_bucket": "rork-wiki.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585451171615:android:ac90c49da693cfcdb6ca2a",
+        "android_client_info": {
+          "package_name": "com.example.rork_wiki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585451171615-vv3lnu91pr3afg70djaiffd8o1mrrjrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF5cC3O7tWHhepaSLrNzaENWqKR1_MrOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585451171615-vv3lnu91pr3afg70djaiffd8o1mrrjrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
