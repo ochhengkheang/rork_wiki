@@ -47,14 +47,18 @@ dependencies:
   flutter_spinkit: ^5.2.0
   http: ^1.1.2
   intl: ^0.19.0
+  get_storage: ^2.1.1
 
-  # Platform
+  # platform
   flutter_platform_widgets: ^6.0.2
 
   # firebase
   firebase_core: ^2.24.2
   cloud_firestore: ^4.13.6
   firebase_auth: ^4.15.3
+
+  # security
+  flutter_dotenv: ^5.1.0
 
 dev_dependencies:
   flutter_test:
@@ -89,6 +93,7 @@ flutter:
     - assets/fonts/
     - assets/gifs/
     - assets/logos/
+    - .env
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
