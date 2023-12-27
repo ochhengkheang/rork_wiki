@@ -91,6 +91,13 @@ class $AssetsFontsGen {
       ];
 }
 
+class $AssetsImagesGen {
+  const $AssetsImagesGen();
+
+  $AssetsImagesOnboardingImagesGen get onboardingImages =>
+      const $AssetsImagesOnboardingImagesGen();
+}
+
 class $AssetsLogosGen {
   const $AssetsLogosGen();
 
@@ -139,10 +146,31 @@ class $AssetsLogosGen {
       ];
 }
 
+class $AssetsImagesOnboardingImagesGen {
+  const $AssetsImagesOnboardingImagesGen();
+
+  /// File path: assets/images/onboarding_images/sammy-line-coding.gif
+  AssetGenImage get sammyLineCoding => const AssetGenImage(
+      'assets/images/onboarding_images/sammy-line-coding.gif');
+
+  /// File path: assets/images/onboarding_images/sammy-line-sailor.gif
+  AssetGenImage get sammyLineSailor => const AssetGenImage(
+      'assets/images/onboarding_images/sammy-line-sailor.gif');
+
+  /// File path: assets/images/onboarding_images/sammy-line-social-media.png
+  AssetGenImage get sammyLineSocialMedia => const AssetGenImage(
+      'assets/images/onboarding_images/sammy-line-social-media.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values =>
+      [sammyLineCoding, sammyLineSailor, sammyLineSocialMedia];
+}
+
 class Assets {
   Assets._();
 
   static const $AssetsFontsGen fonts = $AssetsFontsGen();
+  static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsLogosGen logos = $AssetsLogosGen();
 }
 

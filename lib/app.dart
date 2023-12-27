@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
-import 'package:rork_wiki/screens/wrapper.dart';
+import 'package:rork_wiki/features/home/wrapper.dart';
 import 'package:rork_wiki/utils/themes/themes.dart';
 
 class RokWikiApp extends StatelessWidget {
@@ -12,7 +12,7 @@ class RokWikiApp extends StatelessWidget {
     // Using platform-specific widget package to adapat to the platform changes
     // https://pub.dev/packages/flutter_platform_widgets/example
     return PlatformProvider(
-      initialPlatform: TargetPlatform.iOS,
+      initialPlatform: TargetPlatform.android,
       settings: PlatformSettingsData(
         iosUsesMaterialWidgets: true,
         iosUseZeroPaddingForAppbarPlatformIcon: true,
