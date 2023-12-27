@@ -94,28 +94,48 @@ class $AssetsFontsGen {
 class $AssetsLogosGen {
   const $AssetsLogosGen();
 
-  /// File path: assets/logos/rork-wiki-logo-landscape-tranparent.png
-  AssetGenImage get rorkWikiLogoLandscapeTranparent => const AssetGenImage(
-      'assets/logos/rork-wiki-logo-landscape-tranparent.png');
+  /// File path: assets/logos/rork-wiki-dark-landscape.png
+  AssetGenImage get rorkWikiDarkLandscape =>
+      const AssetGenImage('assets/logos/rork-wiki-dark-landscape.png');
 
-  /// File path: assets/logos/rork-wiki-logo-landscape.png
-  AssetGenImage get rorkWikiLogoLandscape =>
-      const AssetGenImage('assets/logos/rork-wiki-logo-landscape.png');
+  /// File path: assets/logos/rork-wiki-dark-tranparent-landscape.png
+  AssetGenImage get rorkWikiDarkTranparentLandscape => const AssetGenImage(
+      'assets/logos/rork-wiki-dark-tranparent-landscape.png');
 
-  /// File path: assets/logos/rork-wiki-logo-protrait-tranparent.png
-  AssetGenImage get rorkWikiLogoProtraitTranparent => const AssetGenImage(
-      'assets/logos/rork-wiki-logo-protrait-tranparent.png');
+  /// File path: assets/logos/rork-wiki-logo-dark-potrait.png
+  AssetGenImage get rorkWikiLogoDarkPotrait =>
+      const AssetGenImage('assets/logos/rork-wiki-logo-dark-potrait.png');
 
-  /// File path: assets/logos/rork-wiki-logo-protrait.png
-  AssetGenImage get rorkWikiLogoProtrait =>
-      const AssetGenImage('assets/logos/rork-wiki-logo-protrait.png');
+  /// File path: assets/logos/rork-wiki-logo-dark-tranparent-potrait.png
+  AssetGenImage get rorkWikiLogoDarkTranparentPotrait => const AssetGenImage(
+      'assets/logos/rork-wiki-logo-dark-tranparent-potrait.png');
+
+  /// File path: assets/logos/rork-wiki-logo-light-landscape.png
+  AssetGenImage get rorkWikiLogoLightLandscape =>
+      const AssetGenImage('assets/logos/rork-wiki-logo-light-landscape.png');
+
+  /// File path: assets/logos/rork-wiki-logo-light-protrait.png
+  AssetGenImage get rorkWikiLogoLightProtrait =>
+      const AssetGenImage('assets/logos/rork-wiki-logo-light-protrait.png');
+
+  /// File path: assets/logos/rork-wiki-logo-light-tranparent-landscape.png
+  AssetGenImage get rorkWikiLogoLightTranparentLandscape => const AssetGenImage(
+      'assets/logos/rork-wiki-logo-light-tranparent-landscape.png');
+
+  /// File path: assets/logos/rork-wiki-logo-light-tranparent-protrait.png
+  AssetGenImage get rorkWikiLogoLightTranparentProtrait => const AssetGenImage(
+      'assets/logos/rork-wiki-logo-light-tranparent-protrait.png');
 
   /// List of all assets
   List<AssetGenImage> get values => [
-        rorkWikiLogoLandscapeTranparent,
-        rorkWikiLogoLandscape,
-        rorkWikiLogoProtraitTranparent,
-        rorkWikiLogoProtrait
+        rorkWikiDarkLandscape,
+        rorkWikiDarkTranparentLandscape,
+        rorkWikiLogoDarkPotrait,
+        rorkWikiLogoDarkTranparentPotrait,
+        rorkWikiLogoLightLandscape,
+        rorkWikiLogoLightProtrait,
+        rorkWikiLogoLightTranparentLandscape,
+        rorkWikiLogoLightTranparentProtrait
       ];
 }
 

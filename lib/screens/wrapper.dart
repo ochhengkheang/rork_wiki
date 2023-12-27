@@ -18,7 +18,7 @@ class _WrapperState extends State<Wrapper> {
       body: Center(
         child: Column(
           children: [
-            Assets.logos.rorkWikiLogoLandscape.image(),
+            Assets.logos.rorkWikiLogoLightLandscape.image(),
             const Text(
               'Rork Wiki',
               style: TextStyle(fontWeight: FontWeight.w900),
