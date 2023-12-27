@@ -1,13 +1,14 @@
 import 'package:get_storage/get_storage.dart';
 
-class RokWikiLocalStorage {
-  static final RokWikiLocalStorage _instance = RokWikiLocalStorage._internal();
+class RorkWikiLocalStorage {
+  static final RorkWikiLocalStorage _instance =
+      RorkWikiLocalStorage._internal();
 
-  RokWikiLocalStorage._internal();
+  RorkWikiLocalStorage._internal();
 
   //always returns the _instance variable,
   //ensuring that there's only one instance of MyLocalStorage in your app.
-  factory RokWikiLocalStorage() {
+  factory RorkWikiLocalStorage() {
     return _instance;
   }
 

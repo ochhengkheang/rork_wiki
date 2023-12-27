@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class RokWikiElevatedButtonTheme {
-  RokWikiElevatedButtonTheme._();
+class RorkWikiElevatedButtonTheme {
+  RorkWikiElevatedButtonTheme._();
 
   static final ElevatedButtonThemeData lightElevatedButtonTheme =
       ElevatedButtonThemeData(

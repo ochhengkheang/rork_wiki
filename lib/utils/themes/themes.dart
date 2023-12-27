@@ -7,12 +7,13 @@ class MyTheme {
   MyTheme._();
 
   static final ThemeData materialLightTheme = ThemeData(
-      appBarTheme: RokWikiAppBarTheme.lightAppBarTheme,
-      elevatedButtonTheme: RokWikiElevatedButtonTheme.lightElevatedButtonTheme);
+      appBarTheme: RorkWikiAppBarTheme.lightAppBarTheme,
+      elevatedButtonTheme:
+          RorkWikiElevatedButtonTheme.lightElevatedButtonTheme);
 
   static final ThemeData materialDarkTheme = ThemeData(
-      appBarTheme: RokWikiAppBarTheme.darkAppBarTheme,
-      elevatedButtonTheme: RokWikiElevatedButtonTheme.darkElevatedButtonTheme);
+      appBarTheme: RorkWikiAppBarTheme.darkAppBarTheme,
+      elevatedButtonTheme: RorkWikiElevatedButtonTheme.darkElevatedButtonTheme);
 
   static final CupertinoThemeData cupertinoLightTheme =
       const CupertinoThemeData().copyWith(

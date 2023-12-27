@@ -1,6 +1,6 @@
 // This Class contains all the App Text in string formats.
-class RokWikiTextString {
-  RokWikiTextString._();
+class RorkWikiTextString {
+  RorkWikiTextString._();
 
   // -- GlOBAL Texts
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class RokWikiAppBarTheme {
-  RokWikiAppBarTheme._();
+class RorkWikiAppBarTheme {
+  RorkWikiAppBarTheme._();
 
   static const AppBarTheme lightAppBarTheme = AppBarTheme(
     backgroundColor: Colors.white,

@@ -1,5 +1,5 @@
-class RokWikiSizes {
-  RokWikiSizes._();
+class RorkWikiSizes {
+  RorkWikiSizes._();
 
   // Padding and margin sizes
   static const double xs = 4.0;

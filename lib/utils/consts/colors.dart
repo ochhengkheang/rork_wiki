@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class RokWikiColors {
-  RokWikiColors._();
+class RorkWikiColors {
+  RorkWikiColors._();
 
   // App Basic Colors
   static const Color primary = Color(0xFF4B68FF);

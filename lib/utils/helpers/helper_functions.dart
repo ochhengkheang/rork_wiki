@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-class RokwikiHelperFunctions {
+class RorkWikiHelperFunctions {
   static Color? getColor(String value) {
     if (value == 'Red') {
       return Colors.red;

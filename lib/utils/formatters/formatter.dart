@@ -1,6 +1,6 @@
 import 'package:intl/intl.dart';
 
-class RokWikiFormatters {
+class RorkWikiFormatters {
   static String formatDate(DateTime? date) {
     date ??= DateTime.now(); //if null return current date
     return DateFormat('dd-MM-yyyy').format(date);

@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-class RokWikiHttpHelper {
+class RorkWikiHttpHelper {
   static String _baseUrl = 'https://jsonplaceholder.typicode.com';
 
   // GET
