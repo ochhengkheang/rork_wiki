@@ -55,7 +55,7 @@ class RorkWikiHelperFunctions {
     );
   }
 
-  static void navigaeToScreen(Widget screen, BuildContext context) {
+  static void navigateToScreen(Widget screen, BuildContext context) {
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (context) => screen,

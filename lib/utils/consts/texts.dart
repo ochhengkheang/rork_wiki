@@ -3,6 +3,9 @@ class RorkWikiTextString {
   RorkWikiTextString._();
 
   // -- GlOBAL Texts
+  static const String appName = "Rork Wiki";
+  static const String appVersion = "1.0.0";
+  static const String appCopyRight = "© 2024 Rork Wiki. All Rights Reserved.";
 
   // -- OnBoarding Texts
   static const String onBoardingTitle1 = "Choose your preferred category";
