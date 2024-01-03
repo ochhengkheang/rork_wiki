@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:rork_wiki/app.dart';
 import 'package:rork_wiki/firebase_options.dart';
 
@@ -23,7 +24,10 @@ void main() async {
   // Todo: Initialize dotenv
   await dotenv.load(fileName: ".env");
 
-  runApp(const RokWikiApp());
+  // Todo: Riverpod Provider Scope
+  runApp(const ProviderScope(
+    child: RokWikiApp(),
+  ));
 
   // whenever your initialization is completed, remove the splash screen:
   FlutterNativeSplash.remove();

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:get/get.dart';
 import 'package:rork_wiki/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:rork_wiki/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
@@ -8,20 +9,22 @@ import 'package:rork_wiki/features/authentication/screens/onboarding/widgets/onb
 import 'package:rork_wiki/gen/assets.gen.dart';
 import 'package:rork_wiki/utils/consts/texts.dart';
 
-class OnBoardingScreen extends StatelessWidget {
+class OnBoardingScreen extends ConsumerWidget {
   const OnBoardingScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    final controller = Get.put(OnBoardingController());
+  Widget build(BuildContext context, WidgetRef ref) {
+    // Riverpod Controller
+    final OnBoardingController onBoardingcontroller =
+        ref.watch(onBoardingControllerProvider);
 
     return Scaffold(
       body: Stack(
         children: [
           // Horizontal Scrollable Page
           PageView(
-            controller: controller.pageController,
-            onPageChanged: controller.updatePageIndicator,
+            controller: onBoardingcontroller.pageController.state,
+            onPageChanged: onBoardingcontroller.updatePageIndicator,
             children: [
               OnBoardingPage(
                 title: RorkWikiTextString.onBoardingTitle1,
