@@ -33,6 +33,9 @@ class RorkWikiSizes {
   // Image Sizes
   static const double imageThumbSize = 80.0;
 
+  // Checkbox Sizes
+  static const double checkboxSize = 24.0;
+
   // Default spacing between sections
   static const double defaultSpace = 24.0;
   static const double spaceBetweenItems = 16.0;

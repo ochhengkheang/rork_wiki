@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rork_wiki/utils/themes/custom_theme/text_theme.dart';
 
 class RorkWikiTextFormFieldTheme {
   const RorkWikiTextFormFieldTheme._();
@@ -17,12 +18,16 @@ class RorkWikiTextFormFieldTheme {
     labelStyle: const TextStyle().copyWith(
         fontSize: 14, //fixed value
         color: Colors.black),
+
     hintStyle: const TextStyle().copyWith(
         fontSize: 14, //fixed value
         color: Colors.black),
-    errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
+
     floatingLabelStyle:
         const TextStyle().copyWith(color: Colors.black.withOpacity(0.8)),
+
+    errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
+
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
       borderSide: const BorderSide(color: Colors.grey, width: 1),

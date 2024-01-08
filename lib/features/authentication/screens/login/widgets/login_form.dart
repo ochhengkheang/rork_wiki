@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:rork_wiki/features/authentication/screens/signup/signup.dart';
 import 'package:rork_wiki/utils/consts/sizes.dart';
 import 'package:rork_wiki/utils/consts/texts.dart';
+import 'package:rork_wiki/utils/helpers/helper_functions.dart';
 
 class RorkWikiLoginForm extends StatelessWidget {
   const RorkWikiLoginForm({
@@ -25,7 +27,7 @@ class RorkWikiLoginForm extends StatelessWidget {
             const TextField(
               decoration: InputDecoration(
                 // hintText: RorkWikiTextString.loginEmailHint,
-                label: Text(RorkWikiTextString.loginEmailHint),
+                label: Text(RorkWikiTextString.email),
                 prefixIcon: Icon(Iconsax.direct_right),
               ),
             ),
@@ -36,7 +38,7 @@ class RorkWikiLoginForm extends StatelessWidget {
             const TextField(
               decoration: InputDecoration(
                 // hintText: RorkWikiTextString.loginPasswordHint,
-                label: Text(RorkWikiTextString.loginPasswordHint),
+                label: Text(RorkWikiTextString.password),
                 prefixIcon: Icon(Iconsax.password_check),
                 suffixIcon: Icon(Iconsax.eye_slash),
               ),
@@ -47,15 +49,18 @@ class RorkWikiLoginForm extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 /// Remember Me
-                Row(children: [
-                  Checkbox(value: true, onChanged: (value) {}),
-                  const Text(RorkWikiTextString.loginRememberMe)
-                ]),
+                Row(
+                  children: [
+                    SizedBox(
+                        child: Checkbox(value: true, onChanged: (value) {})),
+                    const Text(RorkWikiTextString.rememberMe)
+                  ],
+                ),
 
                 /// Forgot Password
                 TextButton(
                     onPressed: () {},
-                    child: const Text(RorkWikiTextString.loginForgotPassword)),
+                    child: const Text(RorkWikiTextString.forgotPassword)),
               ],
             ),
 
@@ -66,7 +71,7 @@ class RorkWikiLoginForm extends StatelessWidget {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {},
-                child: const Text(RorkWikiTextString.loginButton),
+                child: const Text(RorkWikiTextString.signIn),
               ),
             ),
             const SizedBox(height: RorkWikiSizes.spaceBetweenItems),
@@ -75,8 +80,9 @@ class RorkWikiLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                onPressed: () {},
-                child: const Text(RorkWikiTextString.loginCreateAcoount),
+                onPressed: () => RorkWikiHelperFunctions.navigateToScreen(
+                    const SignUpScreen(), context),
+                child: const Text(RorkWikiTextString.createAcoount),
               ),
             ),
           ],

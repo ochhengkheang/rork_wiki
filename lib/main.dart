@@ -40,6 +40,3 @@ void main() async {
 // Todo: Modifying Validators (High Priority)
 // Todo: Modifying http (Medium Priority)
 // Todo: Setting Up Localizations (Low Priority)
-
-
-// Todo: Set up theme again, colors, input field, buttons(outline, elevated, text)

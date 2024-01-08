@@ -21,17 +21,29 @@ class RorkWikiTextString {
   // -- Login Texts
   static const String loginTitle = "Welcome to Rork Wiki";
   static const String loginSubtitle = "Your World of Limitless Content";
-  static const String loginEmailHint = "Email";
-  static const String loginPasswordHint = "Password";
-  static const String loginRememberMe = "Remember Me";
-  static const String loginForgotPassword = "Forgot Password?";
-  static const String loginButton = "Sign In";
-  static const String loginCreateAcoount = "Create Account";
+  static const String email = "Email";
+  static const String password = "Password";
+  static const String rememberMe = "Remember Me";
+  static const String forgotPassword = "Forgot Password?";
+  static const String signIn = "Sign In";
+  static const String createAcoount = "Create Account";
   static const String loginSignUpSubtitle =
       "Create your account to get started. After that, you can share books and make friends.";
   static const String orSignInWith = "Or Sign In with";
 
-  // -- Home
+  // -- SignUp Texts
+  static const String signUpTitle = "Let's Create your account";
+  static const String iAgreeto = "I agree to";
+  static const String privacyPolicy = "Privacy Policy";
+  static const String and = "and";
+  static const String termsOfUse = "Terms of Use";
+  static const String firstName = "First Name";
+  static const String lastName = "Last Name";
+  static const String userName = "Userame";
+  static const String phoneNumber = "Phone Number";
+  static const String orSignUpWith = "Or Sign Up with";
+
+  // -- Home Texts
   static const String homeAppBarTitle = "Good day for a movie";
   static const String homeAppBarSubTitle = "Sur Sdey";
 }

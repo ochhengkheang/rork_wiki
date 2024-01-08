@@ -15,7 +15,7 @@ class RorkWikiAppBarTheme {
   );
 
   static const AppBarTheme darkAppBarTheme = AppBarTheme(
-    backgroundColor: Colors.black,
+    // backgroundColor: Colors.black,
     elevation: 0,
     titleTextStyle: TextStyle(
       color: Colors.white,
