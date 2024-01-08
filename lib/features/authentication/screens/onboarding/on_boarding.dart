@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:get/get.dart';
 import 'package:rork_wiki/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:rork_wiki/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
 import 'package:rork_wiki/features/authentication/screens/onboarding/widgets/onboarding_next.dart';

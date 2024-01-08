@@ -42,3 +42,4 @@ void main() async {
 // Todo: Setting Up Localizations (Low Priority)
 
 
+// Todo: Set up theme again, colors, input field, buttons(outline, elevated, text)

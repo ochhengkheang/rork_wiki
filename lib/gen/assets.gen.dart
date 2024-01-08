@@ -91,6 +91,20 @@ class $AssetsFontsGen {
       ];
 }
 
+class $AssetsIconsGen {
+  const $AssetsIconsGen();
+
+  /// File path: assets/icons/facebook_white.png
+  AssetGenImage get facebookWhite =>
+      const AssetGenImage('assets/icons/facebook_white.png');
+
+  /// File path: assets/icons/google.png
+  AssetGenImage get google => const AssetGenImage('assets/icons/google.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [facebookWhite, google];
+}
+
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
@@ -170,6 +184,7 @@ class Assets {
   Assets._();
 
   static const $AssetsFontsGen fonts = $AssetsFontsGen();
+  static const $AssetsIconsGen icons = $AssetsIconsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsLogosGen logos = $AssetsLogosGen();
 }

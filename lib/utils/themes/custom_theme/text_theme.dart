@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:rork_wiki/gen/assets.gen.dart';
 
 class RorkWikiTextTheme {
   RorkWikiTextTheme._();

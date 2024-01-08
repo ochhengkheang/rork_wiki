@@ -44,7 +44,7 @@ class RorkWikiSizes {
   static const double borderRadiusLg = 12.0;
 
   // Divider heigth
-  static const double deviderHeigth = 1.0;
+  static const double dividerHeigth = 1.0;
 
   // Brew item dimension
   static const double brewImageSize = 120.0;
