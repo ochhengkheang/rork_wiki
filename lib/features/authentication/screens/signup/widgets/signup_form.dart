@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:rork_wiki/features/authentication/screens/signup/verify_email.dart';
 import 'package:rork_wiki/features/authentication/screens/signup/widgets/terms_and_conditions_checkbox.dart';
 import 'package:rork_wiki/utils/consts/sizes.dart';
 import 'package:rork_wiki/utils/consts/texts.dart';
+import 'package:rork_wiki/utils/helpers/helper_functions.dart';
 
 class RokWikiSignUpForm extends StatelessWidget {
   const RokWikiSignUpForm({
@@ -105,7 +107,8 @@ class RokWikiSignUpForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => RorkWikiHelperFunctions.navigateToScreen(
+                    const VerifyEmailScreen(), context),
                 child: const Text(RorkWikiTextString.createAcoount)),
           ),
           const SizedBox(height: RorkWikiSizes.spaceBetweenSections),

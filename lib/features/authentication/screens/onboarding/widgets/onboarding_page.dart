@@ -18,23 +18,29 @@ class OnBoardingPage extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(RorkWikiSizes.defaultSpace),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Image(
-              width: RorkWikiHelperFunctions.screenWidth(context) *
-                  0.8, // 80% of screen width
-              height: RorkWikiHelperFunctions.screenHeigth(context) *
-                  0.6, // 60% of screen width
-              image: imageProvider),
-          Text(
-            title,
-            style: Theme.of(context).textTheme.headlineMedium,
-            textAlign: TextAlign.center,
-          ),
-          const SizedBox(height: RorkWikiSizes.spaceBetweenItems),
-          Text(
-            subTitle,
-            style: Theme.of(context).textTheme.bodyMedium,
-            textAlign: TextAlign.center,
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Image(
+                  width: RorkWikiHelperFunctions.screenWidth(context) *
+                      0.8, // 80% of screen width
+                  height: RorkWikiHelperFunctions.screenHeigth(context) *
+                      0.6, // 60% of screen width
+                  image: imageProvider),
+              Text(
+                title,
+                style: Theme.of(context).textTheme.headlineMedium,
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: RorkWikiSizes.spaceBetweenItems),
+              Text(
+                subTitle,
+                style: Theme.of(context).textTheme.bodyMedium,
+                textAlign: TextAlign.center,
+              ),
+            ],
           ),
         ],
       ),

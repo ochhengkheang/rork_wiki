@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:rork_wiki/features/authentication/screens/signup/verify_email.dart';
 import 'package:rork_wiki/features/authentication/screens/signup/signup.dart';
 import 'package:rork_wiki/utils/consts/sizes.dart';
 import 'package:rork_wiki/utils/consts/texts.dart';
@@ -59,7 +60,7 @@ class RorkWikiLoginForm extends StatelessWidget {
 
                 /// Forgot Password
                 TextButton(
-                    onPressed: () {},
+                    onPressed: () => (),
                     child: const Text(RorkWikiTextString.forgotPassword)),
               ],
             ),

@@ -91,6 +91,22 @@ class $AssetsFontsGen {
       ];
 }
 
+class $AssetsGifsGen {
+  const $AssetsGifsGen();
+
+  /// File path: assets/gifs/email-marketing-and-newsletter.gif
+  AssetGenImage get emailMarketingAndNewsletter =>
+      const AssetGenImage('assets/gifs/email-marketing-and-newsletter.gif');
+
+  /// File path: assets/gifs/sammy-line-remote-work.gif
+  AssetGenImage get sammyLineRemoteWork =>
+      const AssetGenImage('assets/gifs/sammy-line-remote-work.gif');
+
+  /// List of all assets
+  List<AssetGenImage> get values =>
+      [emailMarketingAndNewsletter, sammyLineRemoteWork];
+}
+
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
@@ -184,6 +200,7 @@ class Assets {
   Assets._();
 
   static const $AssetsFontsGen fonts = $AssetsFontsGen();
+  static const $AssetsGifsGen gifs = $AssetsGifsGen();
   static const $AssetsIconsGen icons = $AssetsIconsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsLogosGen logos = $AssetsLogosGen();

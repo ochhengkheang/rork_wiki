@@ -43,6 +43,18 @@ class RorkWikiTextString {
   static const String phoneNumber = "Phone Number";
   static const String orSignUpWith = "Or Sign Up with";
 
+  /// -- Email Verify Texts
+  static const String emailVerifyTitle = "Verify your email address!";
+  static const String emailVerifySubtitle =
+      "You email have been registered. Please verify you account to access to all features. We have sent you an email with a link to verify your account.";
+  static const String resentEmail = "Resend Email";
+  static const String continues = "Continue";
+
+  /// -- Success Texts
+  static const String successTitle = "Your account is successfully created!";
+  static const String successSubtitle =
+      "You can now access to all features of Rork Wiki. Enjoy your time!";
+
   // -- Home Texts
   static const String homeAppBarTitle = "Good day for a movie";
   static const String homeAppBarSubTitle = "Sur Sdey";
